@@ -23,3 +23,5 @@ extract_variants <- function(data, chr, start, end) {
 # Example usage 
 region_variants <- extract_variants(annotations, "chr1", 69094, 69415)
 print(region_variants)
+
+# github change
