@@ -1,4 +1,6 @@
 exonfile <- 'C:/Users/sramachandran/Documents/GitHub/Capstone_2024/Resources/CodingLocs_hg38.rds'
+exonfile <- 'C:/Users/anak/Documents/GitHub/Capstone_2024/Resources/CodingLocs_hg38.rds'
+
 readRDS(exonfile)
 exonpositions <- readRDS(exonfile)
 
@@ -37,12 +39,41 @@ summary(vcf_clinvar)
 
 # Check the header of the VCF file
 header(vcf_clinvar)
+head(vcf_clinvar)
 
 # View the fixed fields (chromosome, position, reference, alternate alleles)
 fixed(vcf_clinvar)
 
 # Check the INFO fields (annotations like clinical significance, allele frequency, etc.)
-info(vcf_clinvar)
+info_data <- info(vcf_clinvar)
+info_data
+clinvar_metadata_df <- as.data.frame(info_data)
+
+
+# Extract the genomic ranges and convert to data frame
+genomic_ranges <- rowRanges(vcf_clinvar)
+clinvar_gr <- as.data.frame(genomic_ranges)
+
+# Extract fixed data into a dataframe
+fixed_data <- data.frame(
+  CHROM = seqnames(genomic_ranges),
+  POS = start(genomic_ranges),
+  REF = fixed(vcf_clinvar)$REF,
+  ALT = fixed(vcf_clinvar)$ALT
+)
+
+# Combine fixed and info data into a single data frame
+clinvar_df <- cbind(fixed_data, info_data)
+
+# Selecting specific columns 
+selected_columns <- clinvar_df %>%
+  select(CHROM, POS, REF, ALT, AF_ESP, CLNSIG)
+
+# View the new dataset
+head(selected_columns)
+
+
+
 
 # Just try on CHR 22 for workflow 
 ## Path to the gnomAD VCF for chromosome 22

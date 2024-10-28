@@ -1,0 +1,665 @@
+Number	Type	Description
+AC_joint	A	Integer	Alternate allele count in joint dataset
+AN_joint	1	Integer	Total number of alleles in joint dataset
+AF_joint	A	Float	Alternate allele frequency in joint dataset
+grpmax_joint	A	String	Genetic ancestry group with the maximum allele frequency in joint dataset
+fafmax_faf95_max_joint	A	Float	Maximum filtering allele frequency (using Poisson 95% CI) across genetic ancestry groups in joint dataset
+fafmax_faf95_max_gen_anc_joint	A	String	Genetic ancestry group with maximum filtering allele frequency (using Poisson 95% CI) in joint dataset
+AC_exomes	A	Integer	Alternate allele count in exomes dataset
+AN_exomes	1	Integer	Total number of alleles in exomes dataset
+AF_exomes	A	Float	Alternate allele frequency in exomes dataset
+grpmax_exomes	A	String	Genetic ancestry group with the maximum allele frequency in exomes dataset
+fafmax_faf95_max_exomes	A	Float	Maximum filtering allele frequency (using Poisson 95% CI) across genetic ancestry groups in exomes dataset
+fafmax_faf95_max_gen_anc_exomes	A	String	Genetic ancestry group with maximum filtering allele frequency (using Poisson 95% CI) in exomes dataset
+exomes_filters	.	String	Filters' values from the exomes dataset.
+AC_genomes	A	Integer	Alternate allele count in genomes dataset
+AN_genomes	1	Integer	Total number of alleles in genomes dataset
+AF_genomes	A	Float	Alternate allele frequency in genomes dataset
+grpmax_genomes	A	String	Genetic ancestry group with the maximum allele frequency in genomes dataset
+fafmax_faf95_max_genomes	A	Float	Maximum filtering allele frequency (using Poisson 95% CI) across genetic ancestry groups in genomes dataset
+fafmax_faf95_max_gen_anc_genomes	A	String	Genetic ancestry group with maximum filtering allele frequency (using Poisson 95% CI) in genomes dataset
+genomes_filters	.	String	Filters' values from the genomes dataset.
+AC_joint_XX	A	Integer	Alternate allele count for XX samples in joint dataset
+AF_joint_XX	A	Float	Alternate allele frequency in XX samples in joint dataset
+AN_joint_XX	1	Integer	Total number of alleles in XX samples in joint dataset
+nhomalt_joint_XX	A	Integer	Count of homozygous individuals in XX samples in joint dataset
+AC_joint_XY	A	Integer	Alternate allele count for XY samples in joint dataset
+AF_joint_XY	A	Float	Alternate allele frequency in XY samples in joint dataset
+AN_joint_XY	1	Integer	Total number of alleles in XY samples in joint dataset
+nhomalt_joint_XY	A	Integer	Count of homozygous individuals in XY samples in joint dataset
+nhomalt_joint	A	Integer	Count of homozygous individuals in joint dataset
+AC_joint_afr_XX	A	Integer	Alternate allele count for XX samples in the African/African-American genetic ancestry group in joint dataset
+AF_joint_afr_XX	A	Float	Alternate allele frequency in XX samples in the African/African-American genetic ancestry group in joint dataset
+AN_joint_afr_XX	1	Integer	Total number of alleles in XX samples in the African/African-American genetic ancestry group in joint dataset
+nhomalt_joint_afr_XX	A	Integer	Count of homozygous individuals in XX samples in the African/African-American genetic ancestry group in joint dataset
+AC_joint_afr_XY	A	Integer	Alternate allele count for XY samples in the African/African-American genetic ancestry group in joint dataset
+AF_joint_afr_XY	A	Float	Alternate allele frequency in XY samples in the African/African-American genetic ancestry group in joint dataset
+AN_joint_afr_XY	1	Integer	Total number of alleles in XY samples in the African/African-American genetic ancestry group in joint dataset
+nhomalt_joint_afr_XY	A	Integer	Count of homozygous individuals in XY samples in the African/African-American genetic ancestry group in joint dataset
+AC_joint_afr	A	Integer	Alternate allele count for samples in the African/African-American genetic ancestry group in joint dataset
+AF_joint_afr	A	Float	Alternate allele frequency in samples in the African/African-American genetic ancestry group in joint dataset
+AN_joint_afr	1	Integer	Total number of alleles in samples in the African/African-American genetic ancestry group in joint dataset
+nhomalt_joint_afr	A	Integer	Count of homozygous individuals in samples in the African/African-American genetic ancestry group in joint dataset
+AC_joint_ami_XX	A	Integer	Alternate allele count for XX samples in the Amish genetic ancestry group in joint dataset
+AF_joint_ami_XX	A	Float	Alternate allele frequency in XX samples in the Amish genetic ancestry group in joint dataset
+AN_joint_ami_XX	1	Integer	Total number of alleles in XX samples in the Amish genetic ancestry group in joint dataset
+nhomalt_joint_ami_XX	A	Integer	Count of homozygous individuals in XX samples in the Amish genetic ancestry group in joint dataset
+AC_joint_ami_XY	A	Integer	Alternate allele count for XY samples in the Amish genetic ancestry group in joint dataset
+AF_joint_ami_XY	A	Float	Alternate allele frequency in XY samples in the Amish genetic ancestry group in joint dataset
+AN_joint_ami_XY	1	Integer	Total number of alleles in XY samples in the Amish genetic ancestry group in joint dataset
+nhomalt_joint_ami_XY	A	Integer	Count of homozygous individuals in XY samples in the Amish genetic ancestry group in joint dataset
+AC_joint_ami	A	Integer	Alternate allele count for samples in the Amish genetic ancestry group in joint dataset
+AF_joint_ami	A	Float	Alternate allele frequency in samples in the Amish genetic ancestry group in joint dataset
+AN_joint_ami	1	Integer	Total number of alleles in samples in the Amish genetic ancestry group in joint dataset
+nhomalt_joint_ami	A	Integer	Count of homozygous individuals in samples in the Amish genetic ancestry group in joint dataset
+AC_joint_amr_XX	A	Integer	Alternate allele count for XX samples in the Admixed American genetic ancestry group in joint dataset
+AF_joint_amr_XX	A	Float	Alternate allele frequency in XX samples in the Admixed American genetic ancestry group in joint dataset
+AN_joint_amr_XX	1	Integer	Total number of alleles in XX samples in the Admixed American genetic ancestry group in joint dataset
+nhomalt_joint_amr_XX	A	Integer	Count of homozygous individuals in XX samples in the Admixed American genetic ancestry group in joint dataset
+AC_joint_amr_XY	A	Integer	Alternate allele count for XY samples in the Admixed American genetic ancestry group in joint dataset
+AF_joint_amr_XY	A	Float	Alternate allele frequency in XY samples in the Admixed American genetic ancestry group in joint dataset
+AN_joint_amr_XY	1	Integer	Total number of alleles in XY samples in the Admixed American genetic ancestry group in joint dataset
+nhomalt_joint_amr_XY	A	Integer	Count of homozygous individuals in XY samples in the Admixed American genetic ancestry group in joint dataset
+AC_joint_amr	A	Integer	Alternate allele count for samples in the Admixed American genetic ancestry group in joint dataset
+AF_joint_amr	A	Float	Alternate allele frequency in samples in the Admixed American genetic ancestry group in joint dataset
+AN_joint_amr	1	Integer	Total number of alleles in samples in the Admixed American genetic ancestry group in joint dataset
+nhomalt_joint_amr	A	Integer	Count of homozygous individuals in samples in the Admixed American genetic ancestry group in joint dataset
+AC_joint_asj_XX	A	Integer	Alternate allele count for XX samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AF_joint_asj_XX	A	Float	Alternate allele frequency in XX samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AN_joint_asj_XX	1	Integer	Total number of alleles in XX samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+nhomalt_joint_asj_XX	A	Integer	Count of homozygous individuals in XX samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AC_joint_asj_XY	A	Integer	Alternate allele count for XY samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AF_joint_asj_XY	A	Float	Alternate allele frequency in XY samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AN_joint_asj_XY	1	Integer	Total number of alleles in XY samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+nhomalt_joint_asj_XY	A	Integer	Count of homozygous individuals in XY samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AC_joint_asj	A	Integer	Alternate allele count for samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AF_joint_asj	A	Float	Alternate allele frequency in samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AN_joint_asj	1	Integer	Total number of alleles in samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+nhomalt_joint_asj	A	Integer	Count of homozygous individuals in samples in the Ashkenazi Jewish genetic ancestry group in joint dataset
+AC_joint_eas_XX	A	Integer	Alternate allele count for XX samples in the East Asian genetic ancestry group in joint dataset
+AF_joint_eas_XX	A	Float	Alternate allele frequency in XX samples in the East Asian genetic ancestry group in joint dataset
+AN_joint_eas_XX	1	Integer	Total number of alleles in XX samples in the East Asian genetic ancestry group in joint dataset
+nhomalt_joint_eas_XX	A	Integer	Count of homozygous individuals in XX samples in the East Asian genetic ancestry group in joint dataset
+AC_joint_eas_XY	A	Integer	Alternate allele count for XY samples in the East Asian genetic ancestry group in joint dataset
+AF_joint_eas_XY	A	Float	Alternate allele frequency in XY samples in the East Asian genetic ancestry group in joint dataset
+AN_joint_eas_XY	1	Integer	Total number of alleles in XY samples in the East Asian genetic ancestry group in joint dataset
+nhomalt_joint_eas_XY	A	Integer	Count of homozygous individuals in XY samples in the East Asian genetic ancestry group in joint dataset
+AC_joint_eas	A	Integer	Alternate allele count for samples in the East Asian genetic ancestry group in joint dataset
+AF_joint_eas	A	Float	Alternate allele frequency in samples in the East Asian genetic ancestry group in joint dataset
+AN_joint_eas	1	Integer	Total number of alleles in samples in the East Asian genetic ancestry group in joint dataset
+nhomalt_joint_eas	A	Integer	Count of homozygous individuals in samples in the East Asian genetic ancestry group in joint dataset
+AC_joint_fin_XX	A	Integer	Alternate allele count for XX samples in the Finnish genetic ancestry group in joint dataset
+AF_joint_fin_XX	A	Float	Alternate allele frequency in XX samples in the Finnish genetic ancestry group in joint dataset
+AN_joint_fin_XX	1	Integer	Total number of alleles in XX samples in the Finnish genetic ancestry group in joint dataset
+nhomalt_joint_fin_XX	A	Integer	Count of homozygous individuals in XX samples in the Finnish genetic ancestry group in joint dataset
+AC_joint_fin_XY	A	Integer	Alternate allele count for XY samples in the Finnish genetic ancestry group in joint dataset
+AF_joint_fin_XY	A	Float	Alternate allele frequency in XY samples in the Finnish genetic ancestry group in joint dataset
+AN_joint_fin_XY	1	Integer	Total number of alleles in XY samples in the Finnish genetic ancestry group in joint dataset
+nhomalt_joint_fin_XY	A	Integer	Count of homozygous individuals in XY samples in the Finnish genetic ancestry group in joint dataset
+AC_joint_fin	A	Integer	Alternate allele count for samples in the Finnish genetic ancestry group in joint dataset
+AF_joint_fin	A	Float	Alternate allele frequency in samples in the Finnish genetic ancestry group in joint dataset
+AN_joint_fin	1	Integer	Total number of alleles in samples in the Finnish genetic ancestry group in joint dataset
+nhomalt_joint_fin	A	Integer	Count of homozygous individuals in samples in the Finnish genetic ancestry group in joint dataset
+AC_joint_mid_XX	A	Integer	Alternate allele count for XX samples in the Middle Eastern genetic ancestry group in joint dataset
+AF_joint_mid_XX	A	Float	Alternate allele frequency in XX samples in the Middle Eastern genetic ancestry group in joint dataset
+AN_joint_mid_XX	1	Integer	Total number of alleles in XX samples in the Middle Eastern genetic ancestry group in joint dataset
+nhomalt_joint_mid_XX	A	Integer	Count of homozygous individuals in XX samples in the Middle Eastern genetic ancestry group in joint dataset
+AC_joint_mid_XY	A	Integer	Alternate allele count for XY samples in the Middle Eastern genetic ancestry group in joint dataset
+AF_joint_mid_XY	A	Float	Alternate allele frequency in XY samples in the Middle Eastern genetic ancestry group in joint dataset
+AN_joint_mid_XY	1	Integer	Total number of alleles in XY samples in the Middle Eastern genetic ancestry group in joint dataset
+nhomalt_joint_mid_XY	A	Integer	Count of homozygous individuals in XY samples in the Middle Eastern genetic ancestry group in joint dataset
+AC_joint_mid	A	Integer	Alternate allele count for samples in the Middle Eastern genetic ancestry group in joint dataset
+AF_joint_mid	A	Float	Alternate allele frequency in samples in the Middle Eastern genetic ancestry group in joint dataset
+AN_joint_mid	1	Integer	Total number of alleles in samples in the Middle Eastern genetic ancestry group in joint dataset
+nhomalt_joint_mid	A	Integer	Count of homozygous individuals in samples in the Middle Eastern genetic ancestry group in joint dataset
+AC_joint_nfe_XX	A	Integer	Alternate allele count for XX samples in the Non-Finnish European genetic ancestry group in joint dataset
+AF_joint_nfe_XX	A	Float	Alternate allele frequency in XX samples in the Non-Finnish European genetic ancestry group in joint dataset
+AN_joint_nfe_XX	1	Integer	Total number of alleles in XX samples in the Non-Finnish European genetic ancestry group in joint dataset
+nhomalt_joint_nfe_XX	A	Integer	Count of homozygous individuals in XX samples in the Non-Finnish European genetic ancestry group in joint dataset
+AC_joint_nfe_XY	A	Integer	Alternate allele count for XY samples in the Non-Finnish European genetic ancestry group in joint dataset
+AF_joint_nfe_XY	A	Float	Alternate allele frequency in XY samples in the Non-Finnish European genetic ancestry group in joint dataset
+AN_joint_nfe_XY	1	Integer	Total number of alleles in XY samples in the Non-Finnish European genetic ancestry group in joint dataset
+nhomalt_joint_nfe_XY	A	Integer	Count of homozygous individuals in XY samples in the Non-Finnish European genetic ancestry group in joint dataset
+AC_joint_nfe	A	Integer	Alternate allele count for samples in the Non-Finnish European genetic ancestry group in joint dataset
+AF_joint_nfe	A	Float	Alternate allele frequency in samples in the Non-Finnish European genetic ancestry group in joint dataset
+AN_joint_nfe	1	Integer	Total number of alleles in samples in the Non-Finnish European genetic ancestry group in joint dataset
+nhomalt_joint_nfe	A	Integer	Count of homozygous individuals in samples in the Non-Finnish European genetic ancestry group in joint dataset
+AC_joint_raw	A	Integer	Alternate allele count for samples, before removing low-confidence genotypes in joint dataset
+AF_joint_raw	A	Float	Alternate allele frequency in samples, before removing low-confidence genotypes in joint dataset
+AN_joint_raw	1	Integer	Total number of alleles in samples, before removing low-confidence genotypes in joint dataset
+nhomalt_joint_raw	A	Integer	Count of homozygous individuals in samples, before removing low-confidence genotypes in joint dataset
+AC_joint_remaining_XX	A	Integer	Alternate allele count for XX samples in the Remaining individuals genetic ancestry group in joint dataset
+AF_joint_remaining_XX	A	Float	Alternate allele frequency in XX samples in the Remaining individuals genetic ancestry group in joint dataset
+AN_joint_remaining_XX	1	Integer	Total number of alleles in XX samples in the Remaining individuals genetic ancestry group in joint dataset
+nhomalt_joint_remaining_XX	A	Integer	Count of homozygous individuals in XX samples in the Remaining individuals genetic ancestry group in joint dataset
+AC_joint_remaining_XY	A	Integer	Alternate allele count for XY samples in the Remaining individuals genetic ancestry group in joint dataset
+AF_joint_remaining_XY	A	Float	Alternate allele frequency in XY samples in the Remaining individuals genetic ancestry group in joint dataset
+AN_joint_remaining_XY	1	Integer	Total number of alleles in XY samples in the Remaining individuals genetic ancestry group in joint dataset
+nhomalt_joint_remaining_XY	A	Integer	Count of homozygous individuals in XY samples in the Remaining individuals genetic ancestry group in joint dataset
+AC_joint_remaining	A	Integer	Alternate allele count for samples in the Remaining individuals genetic ancestry group in joint dataset
+AF_joint_remaining	A	Float	Alternate allele frequency in samples in the Remaining individuals genetic ancestry group in joint dataset
+AN_joint_remaining	1	Integer	Total number of alleles in samples in the Remaining individuals genetic ancestry group in joint dataset
+nhomalt_joint_remaining	A	Integer	Count of homozygous individuals in samples in the Remaining individuals genetic ancestry group in joint dataset
+AC_joint_sas_XX	A	Integer	Alternate allele count for XX samples in the South Asian genetic ancestry group in joint dataset
+AF_joint_sas_XX	A	Float	Alternate allele frequency in XX samples in the South Asian genetic ancestry group in joint dataset
+AN_joint_sas_XX	1	Integer	Total number of alleles in XX samples in the South Asian genetic ancestry group in joint dataset
+nhomalt_joint_sas_XX	A	Integer	Count of homozygous individuals in XX samples in the South Asian genetic ancestry group in joint dataset
+AC_joint_sas_XY	A	Integer	Alternate allele count for XY samples in the South Asian genetic ancestry group in joint dataset
+AF_joint_sas_XY	A	Float	Alternate allele frequency in XY samples in the South Asian genetic ancestry group in joint dataset
+AN_joint_sas_XY	1	Integer	Total number of alleles in XY samples in the South Asian genetic ancestry group in joint dataset
+nhomalt_joint_sas_XY	A	Integer	Count of homozygous individuals in XY samples in the South Asian genetic ancestry group in joint dataset
+AC_joint_sas	A	Integer	Alternate allele count for samples in the South Asian genetic ancestry group in joint dataset
+AF_joint_sas	A	Float	Alternate allele frequency in samples in the South Asian genetic ancestry group in joint dataset
+AN_joint_sas	1	Integer	Total number of alleles in samples in the South Asian genetic ancestry group in joint dataset
+nhomalt_joint_sas	A	Integer	Count of homozygous individuals in samples in the South Asian genetic ancestry group in joint dataset
+AC_grpmax_joint	A	Integer	Allele count in the genetic ancestry group with the maximum allele frequency in joint dataset
+AF_grpmax_joint	A	Float	Maximum allele frequency across genetic ancestry groups in joint dataset
+AN_grpmax_joint	A	Integer	Total number of alleles in the genetic ancestry group with the maximum allele frequency in joint dataset
+nhomalt_grpmax_joint	A	Integer	Count of homozygous individuals in the genetic ancestry group with the maximum allele frequency in joint dataset
+faf95_joint_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint	A	Float	Filtering allele frequency (using Poisson 95% CI) in joint dataset
+faf99_joint	A	Float	Filtering allele frequency (using Poisson 99% CI) in joint dataset
+faf95_joint_afr_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the African/African-American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_afr_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the African/African-American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_afr_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the African/African-American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_afr_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the African/African-American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_afr	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the African/African-American genetic ancestry group in joint dataset
+faf99_joint_afr	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the African/African-American genetic ancestry group in joint dataset
+faf95_joint_amr_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Admixed American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_amr_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Admixed American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_amr_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Admixed American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_amr_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Admixed American genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_amr	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Admixed American genetic ancestry group in joint dataset
+faf99_joint_amr	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Admixed American genetic ancestry group in joint dataset
+faf95_joint_eas_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the East Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_eas_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the East Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_eas_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the East Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_eas_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the East Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_eas	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the East Asian genetic ancestry group in joint dataset
+faf99_joint_eas	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the East Asian genetic ancestry group in joint dataset
+faf95_joint_mid_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Middle Eastern genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_mid_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Middle Eastern genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_mid_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Middle Eastern genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_mid_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Middle Eastern genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_mid	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Middle Eastern genetic ancestry group in joint dataset
+faf99_joint_mid	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Middle Eastern genetic ancestry group in joint dataset
+faf95_joint_nfe_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Non-Finnish European genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_nfe_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Non-Finnish European genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_nfe_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Non-Finnish European genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_nfe_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Non-Finnish European genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_nfe	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Non-Finnish European genetic ancestry group in joint dataset
+faf99_joint_nfe	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Non-Finnish European genetic ancestry group in joint dataset
+faf95_joint_sas_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the South Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_sas_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the South Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_sas_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the South Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf99_joint_sas_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the South Asian genetic ancestry group in joint dataset in non-PAR regions of sex chromosomes only
+faf95_joint_sas	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the South Asian genetic ancestry group in joint dataset
+faf99_joint_sas	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the South Asian genetic ancestry group in joint dataset
+fafmax_faf99_max_joint	A	Float	Maximum filtering allele frequency (using Poisson 99% CI) across genetic ancestry groups in joint dataset
+fafmax_faf99_max_gen_anc_joint	A	String	Genetic ancestry group with maximum filtering allele frequency (using Poisson 99% CI) in joint dataset
+age_hist_het_bin_freq_joint	A	String	Histogram of ages of heterozygous individuals in joint dataset; bin edges are: 30.0|35.0|40.0|45.0|50.0|55.0|60.0|65.0|70.0|75.0|80.0; total number of individuals of any genotype bin: 4669|5207|48016|63811|75306|86629|111640|86238|8247|4016
+age_hist_het_n_smaller_joint	A	Integer	Count of age values falling below lowest histogram bin edge for heterozygous individuals in joint dataset
+age_hist_het_n_larger_joint	A	Integer	Count of age values falling above highest histogram bin edge for heterozygous individuals in joint dataset
+age_hist_hom_bin_freq_joint	A	String	Histogram of ages of homozygous alternate individuals in joint dataset; bin edges are: 30.0|35.0|40.0|45.0|50.0|55.0|60.0|65.0|70.0|75.0|80.0; total number of individuals of any genotype bin: 4669|5207|48016|63811|75306|86629|111640|86238|8247|4016
+age_hist_hom_n_smaller_joint	A	Integer	Count of age values falling below lowest histogram bin edge for homozygous alternate individuals in joint dataset
+age_hist_hom_n_larger_joint	A	Integer	Count of age values falling above highest histogram bin edge for homozygous alternate individuals in joint dataset
+gq_hist_alt_bin_freq_joint	A	String	Histogram for GQ in heterozygous individuals calculated on high quality genotypes in joint dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+gq_hist_all_bin_freq_joint	A	String	Histogram for GQ calculated on high quality genotypes in joint dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_alt_bin_freq_joint	A	String	Histogram for DP in heterozygous individuals calculated on high quality genotypes in joint dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_alt_n_larger_joint	A	Integer	Count of DP values falling above highest histogram bin edge DP in heterozygous individuals calculated on high quality genotypes in joint dataset
+dp_hist_all_bin_freq_joint	A	String	Histogram for DP calculated on high quality genotypes in joint dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_all_n_larger_joint	A	Integer	Count of DP values falling above highest histogram bin edge DP calculated on high quality genotypes in joint dataset
+ab_hist_alt_bin_freq_joint	A	String	Histogram for AB in heterozygous individuals calculated on high quality genotypes in joint dataset; bin edges are: 0.00|0.05|0.10|0.15|0.20|0.25|0.30|0.35|0.40|0.45|0.50|0.55|0.60|0.65|0.70|0.75|0.80|0.85|0.90|0.95|1.00
+CTT_p_value_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_afr_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_afr_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_afr_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_afr_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_afr	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_afr	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_ami_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_ami_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_ami_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_ami_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_ami	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_ami	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_amr_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_amr_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_amr_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_amr_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_amr	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_amr	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_asj_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_asj_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_asj_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_asj_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_asj	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_asj	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_eas_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_eas_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_eas_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_eas_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_eas	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_eas	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_fin_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_fin_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_fin_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_fin_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_fin	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_fin	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_mid_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_mid_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_mid_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_mid_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_mid	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_mid	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_nfe_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_nfe_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_nfe_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_nfe_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_nfe	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_nfe	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_raw	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_raw	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_remaining_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_remaining_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_remaining_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_remaining_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_remaining	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_remaining	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_sas_XX	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_sas_XX	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_sas_XY	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_sas_XY	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CTT_p_value_sas	A	Float	P-value from Hail's contingency_table_test with `min_cell_count
+CTT_odds_ratio_sas	A	Float	Odds ratio from from Hail's contingency_table_test with `min_cell_count
+CMH_chisq	A	Float	Chi-squared test statistic from the Cochran-Mantel-Haenszel test comparing allele frequencies between exomes and genomes stratified by genetic ancestry group
+CMH_p_value	A	Float	Odds ratio from Cochran-Mantel-Haenszel test comparing allele frequencies between exomes and genomes stratified by genetic ancestry group
+stat_union_p_value	A	Float	p-value from the contingency table or Cochran-Mantel-Haenszel tests
+stat_union_test_name	A	String	Name of the test, either contingency_table_test or cochran_mantel_haenszel_test, used to compare allele frequencies between exomes and genomes
+stat_union_gen_ancs	.	String	List of genetic ancestry groups included in the test. If stat_union_test_name is contingency_table_test, the length of gen_ancs is one and if stat_union_test_name is 'cochran_mantel_haenszel_test', the length of 'gen_ancs' is greater than one
+fail_interval_qc	0	Flag	Less than 85 percent of samples meet 20X coverage if variant is in autosomal or PAR regions or 10X coverage for non-PAR regions of chromosomes X and Y.
+outside_broad_capture_region	0	Flag	Variant falls outside of the Broad exome capture regions.
+outside_ukb_capture_region	0	Flag	Variant falls outside of the UK Biobank exome capture regions.
+outside_broad_calling_region	0	Flag	Variant falls outside of the Broad exome capture regions plus 150 bp padding.
+outside_ukb_calling_region	0	Flag	Variant falls outside of the UK Biobank exome capture regions plus 150 bp padding.
+not_called_in_exomes	0	Flag	Variant was not called in the gnomAD exomes.
+not_called_in_genomes	0	Flag	Variant was not called in the gnomAD genomes.
+AC_exomes_XX	A	Integer	Alternate allele count for XX samples in exomes dataset
+AF_exomes_XX	A	Float	Alternate allele frequency in XX samples in exomes dataset
+AN_exomes_XX	1	Integer	Total number of alleles in XX samples in exomes dataset
+nhomalt_exomes_XX	A	Integer	Count of homozygous individuals in XX samples in exomes dataset
+AC_exomes_XY	A	Integer	Alternate allele count for XY samples in exomes dataset
+AF_exomes_XY	A	Float	Alternate allele frequency in XY samples in exomes dataset
+AN_exomes_XY	1	Integer	Total number of alleles in XY samples in exomes dataset
+nhomalt_exomes_XY	A	Integer	Count of homozygous individuals in XY samples in exomes dataset
+nhomalt_exomes	A	Integer	Count of homozygous individuals in exomes dataset
+AC_exomes_afr_XX	A	Integer	Alternate allele count for XX samples in the African/African-American genetic ancestry group in exomes dataset
+AF_exomes_afr_XX	A	Float	Alternate allele frequency in XX samples in the African/African-American genetic ancestry group in exomes dataset
+AN_exomes_afr_XX	1	Integer	Total number of alleles in XX samples in the African/African-American genetic ancestry group in exomes dataset
+nhomalt_exomes_afr_XX	A	Integer	Count of homozygous individuals in XX samples in the African/African-American genetic ancestry group in exomes dataset
+AC_exomes_afr_XY	A	Integer	Alternate allele count for XY samples in the African/African-American genetic ancestry group in exomes dataset
+AF_exomes_afr_XY	A	Float	Alternate allele frequency in XY samples in the African/African-American genetic ancestry group in exomes dataset
+AN_exomes_afr_XY	1	Integer	Total number of alleles in XY samples in the African/African-American genetic ancestry group in exomes dataset
+nhomalt_exomes_afr_XY	A	Integer	Count of homozygous individuals in XY samples in the African/African-American genetic ancestry group in exomes dataset
+AC_exomes_afr	A	Integer	Alternate allele count for samples in the African/African-American genetic ancestry group in exomes dataset
+AF_exomes_afr	A	Float	Alternate allele frequency in samples in the African/African-American genetic ancestry group in exomes dataset
+AN_exomes_afr	1	Integer	Total number of alleles in samples in the African/African-American genetic ancestry group in exomes dataset
+nhomalt_exomes_afr	A	Integer	Count of homozygous individuals in samples in the African/African-American genetic ancestry group in exomes dataset
+AC_exomes_amr_XX	A	Integer	Alternate allele count for XX samples in the Admixed American genetic ancestry group in exomes dataset
+AF_exomes_amr_XX	A	Float	Alternate allele frequency in XX samples in the Admixed American genetic ancestry group in exomes dataset
+AN_exomes_amr_XX	1	Integer	Total number of alleles in XX samples in the Admixed American genetic ancestry group in exomes dataset
+nhomalt_exomes_amr_XX	A	Integer	Count of homozygous individuals in XX samples in the Admixed American genetic ancestry group in exomes dataset
+AC_exomes_amr_XY	A	Integer	Alternate allele count for XY samples in the Admixed American genetic ancestry group in exomes dataset
+AF_exomes_amr_XY	A	Float	Alternate allele frequency in XY samples in the Admixed American genetic ancestry group in exomes dataset
+AN_exomes_amr_XY	1	Integer	Total number of alleles in XY samples in the Admixed American genetic ancestry group in exomes dataset
+nhomalt_exomes_amr_XY	A	Integer	Count of homozygous individuals in XY samples in the Admixed American genetic ancestry group in exomes dataset
+AC_exomes_amr	A	Integer	Alternate allele count for samples in the Admixed American genetic ancestry group in exomes dataset
+AF_exomes_amr	A	Float	Alternate allele frequency in samples in the Admixed American genetic ancestry group in exomes dataset
+AN_exomes_amr	1	Integer	Total number of alleles in samples in the Admixed American genetic ancestry group in exomes dataset
+nhomalt_exomes_amr	A	Integer	Count of homozygous individuals in samples in the Admixed American genetic ancestry group in exomes dataset
+AC_exomes_asj_XX	A	Integer	Alternate allele count for XX samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AF_exomes_asj_XX	A	Float	Alternate allele frequency in XX samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AN_exomes_asj_XX	1	Integer	Total number of alleles in XX samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+nhomalt_exomes_asj_XX	A	Integer	Count of homozygous individuals in XX samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AC_exomes_asj_XY	A	Integer	Alternate allele count for XY samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AF_exomes_asj_XY	A	Float	Alternate allele frequency in XY samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AN_exomes_asj_XY	1	Integer	Total number of alleles in XY samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+nhomalt_exomes_asj_XY	A	Integer	Count of homozygous individuals in XY samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AC_exomes_asj	A	Integer	Alternate allele count for samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AF_exomes_asj	A	Float	Alternate allele frequency in samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AN_exomes_asj	1	Integer	Total number of alleles in samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+nhomalt_exomes_asj	A	Integer	Count of homozygous individuals in samples in the Ashkenazi Jewish genetic ancestry group in exomes dataset
+AC_exomes_eas_XX	A	Integer	Alternate allele count for XX samples in the East Asian genetic ancestry group in exomes dataset
+AF_exomes_eas_XX	A	Float	Alternate allele frequency in XX samples in the East Asian genetic ancestry group in exomes dataset
+AN_exomes_eas_XX	1	Integer	Total number of alleles in XX samples in the East Asian genetic ancestry group in exomes dataset
+nhomalt_exomes_eas_XX	A	Integer	Count of homozygous individuals in XX samples in the East Asian genetic ancestry group in exomes dataset
+AC_exomes_eas_XY	A	Integer	Alternate allele count for XY samples in the East Asian genetic ancestry group in exomes dataset
+AF_exomes_eas_XY	A	Float	Alternate allele frequency in XY samples in the East Asian genetic ancestry group in exomes dataset
+AN_exomes_eas_XY	1	Integer	Total number of alleles in XY samples in the East Asian genetic ancestry group in exomes dataset
+nhomalt_exomes_eas_XY	A	Integer	Count of homozygous individuals in XY samples in the East Asian genetic ancestry group in exomes dataset
+AC_exomes_eas	A	Integer	Alternate allele count for samples in the East Asian genetic ancestry group in exomes dataset
+AF_exomes_eas	A	Float	Alternate allele frequency in samples in the East Asian genetic ancestry group in exomes dataset
+AN_exomes_eas	1	Integer	Total number of alleles in samples in the East Asian genetic ancestry group in exomes dataset
+nhomalt_exomes_eas	A	Integer	Count of homozygous individuals in samples in the East Asian genetic ancestry group in exomes dataset
+AC_exomes_fin_XX	A	Integer	Alternate allele count for XX samples in the Finnish genetic ancestry group in exomes dataset
+AF_exomes_fin_XX	A	Float	Alternate allele frequency in XX samples in the Finnish genetic ancestry group in exomes dataset
+AN_exomes_fin_XX	1	Integer	Total number of alleles in XX samples in the Finnish genetic ancestry group in exomes dataset
+nhomalt_exomes_fin_XX	A	Integer	Count of homozygous individuals in XX samples in the Finnish genetic ancestry group in exomes dataset
+AC_exomes_fin_XY	A	Integer	Alternate allele count for XY samples in the Finnish genetic ancestry group in exomes dataset
+AF_exomes_fin_XY	A	Float	Alternate allele frequency in XY samples in the Finnish genetic ancestry group in exomes dataset
+AN_exomes_fin_XY	1	Integer	Total number of alleles in XY samples in the Finnish genetic ancestry group in exomes dataset
+nhomalt_exomes_fin_XY	A	Integer	Count of homozygous individuals in XY samples in the Finnish genetic ancestry group in exomes dataset
+AC_exomes_fin	A	Integer	Alternate allele count for samples in the Finnish genetic ancestry group in exomes dataset
+AF_exomes_fin	A	Float	Alternate allele frequency in samples in the Finnish genetic ancestry group in exomes dataset
+AN_exomes_fin	1	Integer	Total number of alleles in samples in the Finnish genetic ancestry group in exomes dataset
+nhomalt_exomes_fin	A	Integer	Count of homozygous individuals in samples in the Finnish genetic ancestry group in exomes dataset
+AC_exomes_mid_XX	A	Integer	Alternate allele count for XX samples in the Middle Eastern genetic ancestry group in exomes dataset
+AF_exomes_mid_XX	A	Float	Alternate allele frequency in XX samples in the Middle Eastern genetic ancestry group in exomes dataset
+AN_exomes_mid_XX	1	Integer	Total number of alleles in XX samples in the Middle Eastern genetic ancestry group in exomes dataset
+nhomalt_exomes_mid_XX	A	Integer	Count of homozygous individuals in XX samples in the Middle Eastern genetic ancestry group in exomes dataset
+AC_exomes_mid_XY	A	Integer	Alternate allele count for XY samples in the Middle Eastern genetic ancestry group in exomes dataset
+AF_exomes_mid_XY	A	Float	Alternate allele frequency in XY samples in the Middle Eastern genetic ancestry group in exomes dataset
+AN_exomes_mid_XY	1	Integer	Total number of alleles in XY samples in the Middle Eastern genetic ancestry group in exomes dataset
+nhomalt_exomes_mid_XY	A	Integer	Count of homozygous individuals in XY samples in the Middle Eastern genetic ancestry group in exomes dataset
+AC_exomes_mid	A	Integer	Alternate allele count for samples in the Middle Eastern genetic ancestry group in exomes dataset
+AF_exomes_mid	A	Float	Alternate allele frequency in samples in the Middle Eastern genetic ancestry group in exomes dataset
+AN_exomes_mid	1	Integer	Total number of alleles in samples in the Middle Eastern genetic ancestry group in exomes dataset
+nhomalt_exomes_mid	A	Integer	Count of homozygous individuals in samples in the Middle Eastern genetic ancestry group in exomes dataset
+AC_exomes_nfe_XX	A	Integer	Alternate allele count for XX samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AF_exomes_nfe_XX	A	Float	Alternate allele frequency in XX samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AN_exomes_nfe_XX	1	Integer	Total number of alleles in XX samples in the Non-Finnish European genetic ancestry group in exomes dataset
+nhomalt_exomes_nfe_XX	A	Integer	Count of homozygous individuals in XX samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AC_exomes_nfe_XY	A	Integer	Alternate allele count for XY samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AF_exomes_nfe_XY	A	Float	Alternate allele frequency in XY samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AN_exomes_nfe_XY	1	Integer	Total number of alleles in XY samples in the Non-Finnish European genetic ancestry group in exomes dataset
+nhomalt_exomes_nfe_XY	A	Integer	Count of homozygous individuals in XY samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AC_exomes_nfe	A	Integer	Alternate allele count for samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AF_exomes_nfe	A	Float	Alternate allele frequency in samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AN_exomes_nfe	1	Integer	Total number of alleles in samples in the Non-Finnish European genetic ancestry group in exomes dataset
+nhomalt_exomes_nfe	A	Integer	Count of homozygous individuals in samples in the Non-Finnish European genetic ancestry group in exomes dataset
+AC_exomes_raw	A	Integer	Alternate allele count for samples, before removing low-confidence genotypes in exomes dataset
+AF_exomes_raw	A	Float	Alternate allele frequency in samples, before removing low-confidence genotypes in exomes dataset
+AN_exomes_raw	1	Integer	Total number of alleles in samples, before removing low-confidence genotypes in exomes dataset
+nhomalt_exomes_raw	A	Integer	Count of homozygous individuals in samples, before removing low-confidence genotypes in exomes dataset
+AC_exomes_remaining_XX	A	Integer	Alternate allele count for XX samples in the Remaining individuals genetic ancestry group in exomes dataset
+AF_exomes_remaining_XX	A	Float	Alternate allele frequency in XX samples in the Remaining individuals genetic ancestry group in exomes dataset
+AN_exomes_remaining_XX	1	Integer	Total number of alleles in XX samples in the Remaining individuals genetic ancestry group in exomes dataset
+nhomalt_exomes_remaining_XX	A	Integer	Count of homozygous individuals in XX samples in the Remaining individuals genetic ancestry group in exomes dataset
+AC_exomes_remaining_XY	A	Integer	Alternate allele count for XY samples in the Remaining individuals genetic ancestry group in exomes dataset
+AF_exomes_remaining_XY	A	Float	Alternate allele frequency in XY samples in the Remaining individuals genetic ancestry group in exomes dataset
+AN_exomes_remaining_XY	1	Integer	Total number of alleles in XY samples in the Remaining individuals genetic ancestry group in exomes dataset
+nhomalt_exomes_remaining_XY	A	Integer	Count of homozygous individuals in XY samples in the Remaining individuals genetic ancestry group in exomes dataset
+AC_exomes_remaining	A	Integer	Alternate allele count for samples in the Remaining individuals genetic ancestry group in exomes dataset
+AF_exomes_remaining	A	Float	Alternate allele frequency in samples in the Remaining individuals genetic ancestry group in exomes dataset
+AN_exomes_remaining	1	Integer	Total number of alleles in samples in the Remaining individuals genetic ancestry group in exomes dataset
+nhomalt_exomes_remaining	A	Integer	Count of homozygous individuals in samples in the Remaining individuals genetic ancestry group in exomes dataset
+AC_exomes_sas_XX	A	Integer	Alternate allele count for XX samples in the South Asian genetic ancestry group in exomes dataset
+AF_exomes_sas_XX	A	Float	Alternate allele frequency in XX samples in the South Asian genetic ancestry group in exomes dataset
+AN_exomes_sas_XX	1	Integer	Total number of alleles in XX samples in the South Asian genetic ancestry group in exomes dataset
+nhomalt_exomes_sas_XX	A	Integer	Count of homozygous individuals in XX samples in the South Asian genetic ancestry group in exomes dataset
+AC_exomes_sas_XY	A	Integer	Alternate allele count for XY samples in the South Asian genetic ancestry group in exomes dataset
+AF_exomes_sas_XY	A	Float	Alternate allele frequency in XY samples in the South Asian genetic ancestry group in exomes dataset
+AN_exomes_sas_XY	1	Integer	Total number of alleles in XY samples in the South Asian genetic ancestry group in exomes dataset
+nhomalt_exomes_sas_XY	A	Integer	Count of homozygous individuals in XY samples in the South Asian genetic ancestry group in exomes dataset
+AC_exomes_sas	A	Integer	Alternate allele count for samples in the South Asian genetic ancestry group in exomes dataset
+AF_exomes_sas	A	Float	Alternate allele frequency in samples in the South Asian genetic ancestry group in exomes dataset
+AN_exomes_sas	1	Integer	Total number of alleles in samples in the South Asian genetic ancestry group in exomes dataset
+nhomalt_exomes_sas	A	Integer	Count of homozygous individuals in samples in the South Asian genetic ancestry group in exomes dataset
+AC_grpmax_exomes	A	Integer	Allele count in the genetic ancestry group with the maximum allele frequency in exomes dataset
+AF_grpmax_exomes	A	Float	Maximum allele frequency across genetic ancestry groups in exomes dataset
+AN_grpmax_exomes	A	Integer	Total number of alleles in the genetic ancestry group with the maximum allele frequency in exomes dataset
+nhomalt_grpmax_exomes	A	Integer	Count of homozygous individuals in the genetic ancestry group with the maximum allele frequency in exomes dataset
+faf95_exomes_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes	A	Float	Filtering allele frequency (using Poisson 95% CI) in exomes dataset
+faf99_exomes	A	Float	Filtering allele frequency (using Poisson 99% CI) in exomes dataset
+faf95_exomes_afr_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the African/African-American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_afr_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the African/African-American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_afr_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the African/African-American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_afr_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the African/African-American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_afr	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the African/African-American genetic ancestry group in exomes dataset
+faf99_exomes_afr	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the African/African-American genetic ancestry group in exomes dataset
+faf95_exomes_amr_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Admixed American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_amr_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Admixed American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_amr_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Admixed American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_amr_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Admixed American genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_amr	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Admixed American genetic ancestry group in exomes dataset
+faf99_exomes_amr	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Admixed American genetic ancestry group in exomes dataset
+faf95_exomes_eas_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the East Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_eas_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the East Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_eas_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the East Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_eas_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the East Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_eas	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the East Asian genetic ancestry group in exomes dataset
+faf99_exomes_eas	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the East Asian genetic ancestry group in exomes dataset
+faf95_exomes_mid_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Middle Eastern genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_mid_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Middle Eastern genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_mid_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Middle Eastern genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_mid_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Middle Eastern genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_mid	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Middle Eastern genetic ancestry group in exomes dataset
+faf99_exomes_mid	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Middle Eastern genetic ancestry group in exomes dataset
+faf95_exomes_nfe_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Non-Finnish European genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_nfe_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Non-Finnish European genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_nfe_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Non-Finnish European genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_nfe_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Non-Finnish European genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_nfe	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Non-Finnish European genetic ancestry group in exomes dataset
+faf99_exomes_nfe	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Non-Finnish European genetic ancestry group in exomes dataset
+faf95_exomes_sas_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the South Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_sas_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the South Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_sas_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the South Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf99_exomes_sas_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the South Asian genetic ancestry group in exomes dataset in non-PAR regions of sex chromosomes only
+faf95_exomes_sas	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the South Asian genetic ancestry group in exomes dataset
+faf99_exomes_sas	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the South Asian genetic ancestry group in exomes dataset
+fafmax_faf99_max_exomes	A	Float	Maximum filtering allele frequency (using Poisson 99% CI) across genetic ancestry groups in exomes dataset
+fafmax_faf99_max_gen_anc_exomes	A	String	Genetic ancestry group with maximum filtering allele frequency (using Poisson 99% CI) in exomes dataset
+age_hist_het_bin_freq_exomes	A	String	Histogram of ages of heterozygous individuals in exomes dataset; bin edges are: 30.0|35.0|40.0|45.0|50.0|55.0|60.0|65.0|70.0|75.0|80.0; total number of individuals of any genotype bin: 3337|3806|46374|60862|71023|83028|108358|83329|6292|2814
+age_hist_het_n_smaller_exomes	A	Integer	Count of age values falling below lowest histogram bin edge for heterozygous individuals in exomes dataset
+age_hist_het_n_larger_exomes	A	Integer	Count of age values falling above highest histogram bin edge for heterozygous individuals in exomes dataset
+age_hist_hom_bin_freq_exomes	A	String	Histogram of ages of homozygous alternate individuals in exomes dataset; bin edges are: 30.0|35.0|40.0|45.0|50.0|55.0|60.0|65.0|70.0|75.0|80.0; total number of individuals of any genotype bin: 3337|3806|46374|60862|71023|83028|108358|83329|6292|2814
+age_hist_hom_n_smaller_exomes	A	Integer	Count of age values falling below lowest histogram bin edge for homozygous alternate individuals in exomes dataset
+age_hist_hom_n_larger_exomes	A	Integer	Count of age values falling above highest histogram bin edge for homozygous alternate individuals in exomes dataset
+gq_hist_alt_bin_freq_exomes	A	String	Histogram for GQ in heterozygous individuals calculated on high quality genotypes in exomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+gq_hist_all_bin_freq_exomes	A	String	Histogram for GQ calculated on high quality genotypes in exomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_alt_bin_freq_exomes	A	String	Histogram for DP in heterozygous individuals calculated on high quality genotypes in exomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_alt_n_larger_exomes	A	Integer	Count of DP values falling above highest histogram bin edge DP in heterozygous individuals calculated on high quality genotypes in exomes dataset
+dp_hist_all_bin_freq_exomes	A	String	Histogram for DP calculated on high quality genotypes in exomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_all_n_larger_exomes	A	Integer	Count of DP values falling above highest histogram bin edge DP calculated on high quality genotypes in exomes dataset
+ab_hist_alt_bin_freq_exomes	A	String	Histogram for AB in heterozygous individuals calculated on high quality genotypes in exomes dataset; bin edges are: 0.00|0.05|0.10|0.15|0.20|0.25|0.30|0.35|0.40|0.45|0.50|0.55|0.60|0.65|0.70|0.75|0.80|0.85|0.90|0.95|1.00
+AC_genomes_XX	A	Integer	Alternate allele count for XX samples in genomes dataset
+AF_genomes_XX	A	Float	Alternate allele frequency in XX samples in genomes dataset
+AN_genomes_XX	1	Integer	Total number of alleles in XX samples in genomes dataset
+nhomalt_genomes_XX	A	Integer	Count of homozygous individuals in XX samples in genomes dataset
+AC_genomes_XY	A	Integer	Alternate allele count for XY samples in genomes dataset
+AF_genomes_XY	A	Float	Alternate allele frequency in XY samples in genomes dataset
+AN_genomes_XY	1	Integer	Total number of alleles in XY samples in genomes dataset
+nhomalt_genomes_XY	A	Integer	Count of homozygous individuals in XY samples in genomes dataset
+nhomalt_genomes	A	Integer	Count of homozygous individuals in genomes dataset
+AC_genomes_afr_XX	A	Integer	Alternate allele count for XX samples in the African/African-American genetic ancestry group in genomes dataset
+AF_genomes_afr_XX	A	Float	Alternate allele frequency in XX samples in the African/African-American genetic ancestry group in genomes dataset
+AN_genomes_afr_XX	1	Integer	Total number of alleles in XX samples in the African/African-American genetic ancestry group in genomes dataset
+nhomalt_genomes_afr_XX	A	Integer	Count of homozygous individuals in XX samples in the African/African-American genetic ancestry group in genomes dataset
+AC_genomes_afr_XY	A	Integer	Alternate allele count for XY samples in the African/African-American genetic ancestry group in genomes dataset
+AF_genomes_afr_XY	A	Float	Alternate allele frequency in XY samples in the African/African-American genetic ancestry group in genomes dataset
+AN_genomes_afr_XY	1	Integer	Total number of alleles in XY samples in the African/African-American genetic ancestry group in genomes dataset
+nhomalt_genomes_afr_XY	A	Integer	Count of homozygous individuals in XY samples in the African/African-American genetic ancestry group in genomes dataset
+AC_genomes_afr	A	Integer	Alternate allele count for samples in the African/African-American genetic ancestry group in genomes dataset
+AF_genomes_afr	A	Float	Alternate allele frequency in samples in the African/African-American genetic ancestry group in genomes dataset
+AN_genomes_afr	1	Integer	Total number of alleles in samples in the African/African-American genetic ancestry group in genomes dataset
+nhomalt_genomes_afr	A	Integer	Count of homozygous individuals in samples in the African/African-American genetic ancestry group in genomes dataset
+AC_genomes_ami_XX	A	Integer	Alternate allele count for XX samples in the Amish genetic ancestry group in genomes dataset
+AF_genomes_ami_XX	A	Float	Alternate allele frequency in XX samples in the Amish genetic ancestry group in genomes dataset
+AN_genomes_ami_XX	1	Integer	Total number of alleles in XX samples in the Amish genetic ancestry group in genomes dataset
+nhomalt_genomes_ami_XX	A	Integer	Count of homozygous individuals in XX samples in the Amish genetic ancestry group in genomes dataset
+AC_genomes_ami_XY	A	Integer	Alternate allele count for XY samples in the Amish genetic ancestry group in genomes dataset
+AF_genomes_ami_XY	A	Float	Alternate allele frequency in XY samples in the Amish genetic ancestry group in genomes dataset
+AN_genomes_ami_XY	1	Integer	Total number of alleles in XY samples in the Amish genetic ancestry group in genomes dataset
+nhomalt_genomes_ami_XY	A	Integer	Count of homozygous individuals in XY samples in the Amish genetic ancestry group in genomes dataset
+AC_genomes_ami	A	Integer	Alternate allele count for samples in the Amish genetic ancestry group in genomes dataset
+AF_genomes_ami	A	Float	Alternate allele frequency in samples in the Amish genetic ancestry group in genomes dataset
+AN_genomes_ami	1	Integer	Total number of alleles in samples in the Amish genetic ancestry group in genomes dataset
+nhomalt_genomes_ami	A	Integer	Count of homozygous individuals in samples in the Amish genetic ancestry group in genomes dataset
+AC_genomes_amr_XX	A	Integer	Alternate allele count for XX samples in the Admixed American genetic ancestry group in genomes dataset
+AF_genomes_amr_XX	A	Float	Alternate allele frequency in XX samples in the Admixed American genetic ancestry group in genomes dataset
+AN_genomes_amr_XX	1	Integer	Total number of alleles in XX samples in the Admixed American genetic ancestry group in genomes dataset
+nhomalt_genomes_amr_XX	A	Integer	Count of homozygous individuals in XX samples in the Admixed American genetic ancestry group in genomes dataset
+AC_genomes_amr_XY	A	Integer	Alternate allele count for XY samples in the Admixed American genetic ancestry group in genomes dataset
+AF_genomes_amr_XY	A	Float	Alternate allele frequency in XY samples in the Admixed American genetic ancestry group in genomes dataset
+AN_genomes_amr_XY	1	Integer	Total number of alleles in XY samples in the Admixed American genetic ancestry group in genomes dataset
+nhomalt_genomes_amr_XY	A	Integer	Count of homozygous individuals in XY samples in the Admixed American genetic ancestry group in genomes dataset
+AC_genomes_amr	A	Integer	Alternate allele count for samples in the Admixed American genetic ancestry group in genomes dataset
+AF_genomes_amr	A	Float	Alternate allele frequency in samples in the Admixed American genetic ancestry group in genomes dataset
+AN_genomes_amr	1	Integer	Total number of alleles in samples in the Admixed American genetic ancestry group in genomes dataset
+nhomalt_genomes_amr	A	Integer	Count of homozygous individuals in samples in the Admixed American genetic ancestry group in genomes dataset
+AC_genomes_asj_XX	A	Integer	Alternate allele count for XX samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AF_genomes_asj_XX	A	Float	Alternate allele frequency in XX samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AN_genomes_asj_XX	1	Integer	Total number of alleles in XX samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+nhomalt_genomes_asj_XX	A	Integer	Count of homozygous individuals in XX samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AC_genomes_asj_XY	A	Integer	Alternate allele count for XY samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AF_genomes_asj_XY	A	Float	Alternate allele frequency in XY samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AN_genomes_asj_XY	1	Integer	Total number of alleles in XY samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+nhomalt_genomes_asj_XY	A	Integer	Count of homozygous individuals in XY samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AC_genomes_asj	A	Integer	Alternate allele count for samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AF_genomes_asj	A	Float	Alternate allele frequency in samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AN_genomes_asj	1	Integer	Total number of alleles in samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+nhomalt_genomes_asj	A	Integer	Count of homozygous individuals in samples in the Ashkenazi Jewish genetic ancestry group in genomes dataset
+AC_genomes_eas_XX	A	Integer	Alternate allele count for XX samples in the East Asian genetic ancestry group in genomes dataset
+AF_genomes_eas_XX	A	Float	Alternate allele frequency in XX samples in the East Asian genetic ancestry group in genomes dataset
+AN_genomes_eas_XX	1	Integer	Total number of alleles in XX samples in the East Asian genetic ancestry group in genomes dataset
+nhomalt_genomes_eas_XX	A	Integer	Count of homozygous individuals in XX samples in the East Asian genetic ancestry group in genomes dataset
+AC_genomes_eas_XY	A	Integer	Alternate allele count for XY samples in the East Asian genetic ancestry group in genomes dataset
+AF_genomes_eas_XY	A	Float	Alternate allele frequency in XY samples in the East Asian genetic ancestry group in genomes dataset
+AN_genomes_eas_XY	1	Integer	Total number of alleles in XY samples in the East Asian genetic ancestry group in genomes dataset
+nhomalt_genomes_eas_XY	A	Integer	Count of homozygous individuals in XY samples in the East Asian genetic ancestry group in genomes dataset
+AC_genomes_eas	A	Integer	Alternate allele count for samples in the East Asian genetic ancestry group in genomes dataset
+AF_genomes_eas	A	Float	Alternate allele frequency in samples in the East Asian genetic ancestry group in genomes dataset
+AN_genomes_eas	1	Integer	Total number of alleles in samples in the East Asian genetic ancestry group in genomes dataset
+nhomalt_genomes_eas	A	Integer	Count of homozygous individuals in samples in the East Asian genetic ancestry group in genomes dataset
+AC_genomes_fin_XX	A	Integer	Alternate allele count for XX samples in the Finnish genetic ancestry group in genomes dataset
+AF_genomes_fin_XX	A	Float	Alternate allele frequency in XX samples in the Finnish genetic ancestry group in genomes dataset
+AN_genomes_fin_XX	1	Integer	Total number of alleles in XX samples in the Finnish genetic ancestry group in genomes dataset
+nhomalt_genomes_fin_XX	A	Integer	Count of homozygous individuals in XX samples in the Finnish genetic ancestry group in genomes dataset
+AC_genomes_fin_XY	A	Integer	Alternate allele count for XY samples in the Finnish genetic ancestry group in genomes dataset
+AF_genomes_fin_XY	A	Float	Alternate allele frequency in XY samples in the Finnish genetic ancestry group in genomes dataset
+AN_genomes_fin_XY	1	Integer	Total number of alleles in XY samples in the Finnish genetic ancestry group in genomes dataset
+nhomalt_genomes_fin_XY	A	Integer	Count of homozygous individuals in XY samples in the Finnish genetic ancestry group in genomes dataset
+AC_genomes_fin	A	Integer	Alternate allele count for samples in the Finnish genetic ancestry group in genomes dataset
+AF_genomes_fin	A	Float	Alternate allele frequency in samples in the Finnish genetic ancestry group in genomes dataset
+AN_genomes_fin	1	Integer	Total number of alleles in samples in the Finnish genetic ancestry group in genomes dataset
+nhomalt_genomes_fin	A	Integer	Count of homozygous individuals in samples in the Finnish genetic ancestry group in genomes dataset
+AC_genomes_mid_XX	A	Integer	Alternate allele count for XX samples in the Middle Eastern genetic ancestry group in genomes dataset
+AF_genomes_mid_XX	A	Float	Alternate allele frequency in XX samples in the Middle Eastern genetic ancestry group in genomes dataset
+AN_genomes_mid_XX	1	Integer	Total number of alleles in XX samples in the Middle Eastern genetic ancestry group in genomes dataset
+nhomalt_genomes_mid_XX	A	Integer	Count of homozygous individuals in XX samples in the Middle Eastern genetic ancestry group in genomes dataset
+AC_genomes_mid_XY	A	Integer	Alternate allele count for XY samples in the Middle Eastern genetic ancestry group in genomes dataset
+AF_genomes_mid_XY	A	Float	Alternate allele frequency in XY samples in the Middle Eastern genetic ancestry group in genomes dataset
+AN_genomes_mid_XY	1	Integer	Total number of alleles in XY samples in the Middle Eastern genetic ancestry group in genomes dataset
+nhomalt_genomes_mid_XY	A	Integer	Count of homozygous individuals in XY samples in the Middle Eastern genetic ancestry group in genomes dataset
+AC_genomes_mid	A	Integer	Alternate allele count for samples in the Middle Eastern genetic ancestry group in genomes dataset
+AF_genomes_mid	A	Float	Alternate allele frequency in samples in the Middle Eastern genetic ancestry group in genomes dataset
+AN_genomes_mid	1	Integer	Total number of alleles in samples in the Middle Eastern genetic ancestry group in genomes dataset
+nhomalt_genomes_mid	A	Integer	Count of homozygous individuals in samples in the Middle Eastern genetic ancestry group in genomes dataset
+AC_genomes_nfe_XX	A	Integer	Alternate allele count for XX samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AF_genomes_nfe_XX	A	Float	Alternate allele frequency in XX samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AN_genomes_nfe_XX	1	Integer	Total number of alleles in XX samples in the Non-Finnish European genetic ancestry group in genomes dataset
+nhomalt_genomes_nfe_XX	A	Integer	Count of homozygous individuals in XX samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AC_genomes_nfe_XY	A	Integer	Alternate allele count for XY samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AF_genomes_nfe_XY	A	Float	Alternate allele frequency in XY samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AN_genomes_nfe_XY	1	Integer	Total number of alleles in XY samples in the Non-Finnish European genetic ancestry group in genomes dataset
+nhomalt_genomes_nfe_XY	A	Integer	Count of homozygous individuals in XY samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AC_genomes_nfe	A	Integer	Alternate allele count for samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AF_genomes_nfe	A	Float	Alternate allele frequency in samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AN_genomes_nfe	1	Integer	Total number of alleles in samples in the Non-Finnish European genetic ancestry group in genomes dataset
+nhomalt_genomes_nfe	A	Integer	Count of homozygous individuals in samples in the Non-Finnish European genetic ancestry group in genomes dataset
+AC_genomes_raw	A	Integer	Alternate allele count for samples, before removing low-confidence genotypes in genomes dataset
+AF_genomes_raw	A	Float	Alternate allele frequency in samples, before removing low-confidence genotypes in genomes dataset
+AN_genomes_raw	1	Integer	Total number of alleles in samples, before removing low-confidence genotypes in genomes dataset
+nhomalt_genomes_raw	A	Integer	Count of homozygous individuals in samples, before removing low-confidence genotypes in genomes dataset
+AC_genomes_remaining_XX	A	Integer	Alternate allele count for XX samples in the Remaining individuals genetic ancestry group in genomes dataset
+AF_genomes_remaining_XX	A	Float	Alternate allele frequency in XX samples in the Remaining individuals genetic ancestry group in genomes dataset
+AN_genomes_remaining_XX	1	Integer	Total number of alleles in XX samples in the Remaining individuals genetic ancestry group in genomes dataset
+nhomalt_genomes_remaining_XX	A	Integer	Count of homozygous individuals in XX samples in the Remaining individuals genetic ancestry group in genomes dataset
+AC_genomes_remaining_XY	A	Integer	Alternate allele count for XY samples in the Remaining individuals genetic ancestry group in genomes dataset
+AF_genomes_remaining_XY	A	Float	Alternate allele frequency in XY samples in the Remaining individuals genetic ancestry group in genomes dataset
+AN_genomes_remaining_XY	1	Integer	Total number of alleles in XY samples in the Remaining individuals genetic ancestry group in genomes dataset
+nhomalt_genomes_remaining_XY	A	Integer	Count of homozygous individuals in XY samples in the Remaining individuals genetic ancestry group in genomes dataset
+AC_genomes_remaining	A	Integer	Alternate allele count for samples in the Remaining individuals genetic ancestry group in genomes dataset
+AF_genomes_remaining	A	Float	Alternate allele frequency in samples in the Remaining individuals genetic ancestry group in genomes dataset
+AN_genomes_remaining	1	Integer	Total number of alleles in samples in the Remaining individuals genetic ancestry group in genomes dataset
+nhomalt_genomes_remaining	A	Integer	Count of homozygous individuals in samples in the Remaining individuals genetic ancestry group in genomes dataset
+AC_genomes_sas_XX	A	Integer	Alternate allele count for XX samples in the South Asian genetic ancestry group in genomes dataset
+AF_genomes_sas_XX	A	Float	Alternate allele frequency in XX samples in the South Asian genetic ancestry group in genomes dataset
+AN_genomes_sas_XX	1	Integer	Total number of alleles in XX samples in the South Asian genetic ancestry group in genomes dataset
+nhomalt_genomes_sas_XX	A	Integer	Count of homozygous individuals in XX samples in the South Asian genetic ancestry group in genomes dataset
+AC_genomes_sas_XY	A	Integer	Alternate allele count for XY samples in the South Asian genetic ancestry group in genomes dataset
+AF_genomes_sas_XY	A	Float	Alternate allele frequency in XY samples in the South Asian genetic ancestry group in genomes dataset
+AN_genomes_sas_XY	1	Integer	Total number of alleles in XY samples in the South Asian genetic ancestry group in genomes dataset
+nhomalt_genomes_sas_XY	A	Integer	Count of homozygous individuals in XY samples in the South Asian genetic ancestry group in genomes dataset
+AC_genomes_sas	A	Integer	Alternate allele count for samples in the South Asian genetic ancestry group in genomes dataset
+AF_genomes_sas	A	Float	Alternate allele frequency in samples in the South Asian genetic ancestry group in genomes dataset
+AN_genomes_sas	1	Integer	Total number of alleles in samples in the South Asian genetic ancestry group in genomes dataset
+nhomalt_genomes_sas	A	Integer	Count of homozygous individuals in samples in the South Asian genetic ancestry group in genomes dataset
+AC_grpmax_genomes	A	Integer	Allele count in the genetic ancestry group with the maximum allele frequency in genomes dataset
+AF_grpmax_genomes	A	Float	Maximum allele frequency across genetic ancestry groups in genomes dataset
+AN_grpmax_genomes	A	Integer	Total number of alleles in the genetic ancestry group with the maximum allele frequency in genomes dataset
+nhomalt_grpmax_genomes	A	Integer	Count of homozygous individuals in the genetic ancestry group with the maximum allele frequency in genomes dataset
+faf95_genomes_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes	A	Float	Filtering allele frequency (using Poisson 95% CI) in genomes dataset
+faf99_genomes	A	Float	Filtering allele frequency (using Poisson 99% CI) in genomes dataset
+faf95_genomes_afr_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the African/African-American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_afr_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the African/African-American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_afr_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the African/African-American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_afr_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the African/African-American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_afr	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the African/African-American genetic ancestry group in genomes dataset
+faf99_genomes_afr	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the African/African-American genetic ancestry group in genomes dataset
+faf95_genomes_amr_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Admixed American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_amr_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Admixed American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_amr_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Admixed American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_amr_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Admixed American genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_amr	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Admixed American genetic ancestry group in genomes dataset
+faf99_genomes_amr	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Admixed American genetic ancestry group in genomes dataset
+faf95_genomes_eas_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the East Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_eas_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the East Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_eas_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the East Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_eas_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the East Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_eas	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the East Asian genetic ancestry group in genomes dataset
+faf99_genomes_eas	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the East Asian genetic ancestry group in genomes dataset
+faf95_genomes_nfe_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the Non-Finnish European genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_nfe_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the Non-Finnish European genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_nfe_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the Non-Finnish European genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_nfe_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the Non-Finnish European genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_nfe	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the Non-Finnish European genetic ancestry group in genomes dataset
+faf99_genomes_nfe	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the Non-Finnish European genetic ancestry group in genomes dataset
+faf95_genomes_sas_XX	A	Float	Filtering allele frequency (using Poisson 95% CI) for XX samples in the South Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_sas_XX	A	Float	Filtering allele frequency (using Poisson 99% CI) for XX samples in the South Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_sas_XY	A	Float	Filtering allele frequency (using Poisson 95% CI) for XY samples in the South Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf99_genomes_sas_XY	A	Float	Filtering allele frequency (using Poisson 99% CI) for XY samples in the South Asian genetic ancestry group in genomes dataset in non-PAR regions of sex chromosomes only
+faf95_genomes_sas	A	Float	Filtering allele frequency (using Poisson 95% CI) for samples in the South Asian genetic ancestry group in genomes dataset
+faf99_genomes_sas	A	Float	Filtering allele frequency (using Poisson 99% CI) for samples in the South Asian genetic ancestry group in genomes dataset
+fafmax_faf99_max_genomes	A	Float	Maximum filtering allele frequency (using Poisson 99% CI) across genetic ancestry groups in genomes dataset
+fafmax_faf99_max_gen_anc_genomes	A	String	Genetic ancestry group with maximum filtering allele frequency (using Poisson 99% CI) in genomes dataset
+age_hist_het_bin_freq_genomes	A	String	Histogram of ages of heterozygous individuals in genomes dataset; bin edges are: 30.0|35.0|40.0|45.0|50.0|55.0|60.0|65.0|70.0|75.0|80.0; total number of individuals of any genotype bin: 1332|1401|1642|2949|4283|3601|3282|2909|1955|1202
+age_hist_het_n_smaller_genomes	A	Integer	Count of age values falling below lowest histogram bin edge for heterozygous individuals in genomes dataset
+age_hist_het_n_larger_genomes	A	Integer	Count of age values falling above highest histogram bin edge for heterozygous individuals in genomes dataset
+age_hist_hom_bin_freq_genomes	A	String	Histogram of ages of homozygous alternate individuals in genomes dataset; bin edges are: 30.0|35.0|40.0|45.0|50.0|55.0|60.0|65.0|70.0|75.0|80.0; total number of individuals of any genotype bin: 1332|1401|1642|2949|4283|3601|3282|2909|1955|1202
+age_hist_hom_n_smaller_genomes	A	Integer	Count of age values falling below lowest histogram bin edge for homozygous alternate individuals in genomes dataset
+age_hist_hom_n_larger_genomes	A	Integer	Count of age values falling above highest histogram bin edge for homozygous alternate individuals in genomes dataset
+gq_hist_alt_bin_freq_genomes	A	String	Histogram for GQ in heterozygous individuals calculated on high quality genotypes in genomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+gq_hist_all_bin_freq_genomes	A	String	Histogram for GQ calculated on high quality genotypes in genomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_alt_bin_freq_genomes	A	String	Histogram for DP in heterozygous individuals calculated on high quality genotypes in genomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_alt_n_larger_genomes	A	Integer	Count of DP values falling above highest histogram bin edge DP in heterozygous individuals calculated on high quality genotypes in genomes dataset
+dp_hist_all_bin_freq_genomes	A	String	Histogram for DP calculated on high quality genotypes in genomes dataset; bin edges are: 0|5|10|15|20|25|30|35|40|45|50|55|60|65|70|75|80|85|90|95|100
+dp_hist_all_n_larger_genomes	A	Integer	Count of DP values falling above highest histogram bin edge DP calculated on high quality genotypes in genomes dataset
+ab_hist_alt_bin_freq_genomes	A	String	Histogram for AB in heterozygous individuals calculated on high quality genotypes in genomes dataset; bin edges are: 0.00|0.05|0.10|0.15|0.20|0.25|0.30|0.35|0.40|0.45|0.50|0.55|0.60|0.65|0.70|0.75|0.80|0.85|0.90|0.95|1.00
