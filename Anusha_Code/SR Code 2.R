@@ -27,12 +27,11 @@ library(dplyr)
 
 # Define Clinvar path to VCF 
 clinvar_vcf <- "F:/Capstone/Resources/ClinVar/clinvar.vcf.gz"
-clinvar_vcf <- "/Volumes/Seagate/Capstone/clinvar_20241027.vcf"
+clinvar_vcf <- "/Volumes/Seagate/Capstone/clinvar.vcf.gz"
 
 # Load the VCF file
 #change to 38?
 vcf_clinvar <- readVcf(clinvar_vcf, "hg38") 
-dim(clinvar_vcf)
 
 # Check the contents of the VCF file
 vcf_clinvar
@@ -47,33 +46,33 @@ fixed(vcf_clinvar)
 # Check the INFO fields (annotations like clinical significance, allele frequency, etc.)
 info(vcf_clinvar)
 
-# Check the INFO fields (annotations like clinical significance, allele frequency, etc.)
-info_data <- info(vcf_clinvar)
+# Subset file 
+vcf_clinvar_subset <- vcf_clinvar[1:1000, ]
+
+# Check the INFO fields (annotations like clinical significance, allele frequency, etc.) and convert to data frame
+info_data <- info(vcf_clinvar_subset)
 info_data
-clinvar_metadata_df <- as.data.frame(info_data)
+clinvar_info <- as.data.frame(info_data)
 
 
 # Extract the genomic ranges and convert to data frame
-genomic_ranges <- rowRanges(vcf_clinvar)
+genomic_ranges <- rowRanges(vcf_clinvar_subset)
 clinvar_gr <- as.data.frame(genomic_ranges)
 
-# Extract fixed data into a dataframe
-fixed_data <- data.frame(
-  CHROM = seqnames(genomic_ranges),
-  POS = start(genomic_ranges),
-  REF = fixed(vcf_clinvar)$REF,
-  ALT = fixed(vcf_clinvar)$ALT
-)
+# Combine both data frames 
+clinvar_combined_df <- cbind(clinvar_gr, clinvar_info)
+head(clinvar_combined_df)
 
-# Combine fixed and info data into a single data frame
-clinvar_df <- cbind(fixed_data, info_data)
 
 # Selecting specific columns 
-selected_columns <- clinvar_df %>%
-  select(CHROM, POS, REF, ALT, AF_ESP, CLNSIG)
+# Should be able to merge with ref, alt, and start
+clinvar_filtered <- clinvar_combined_df %>%
+  select(start, REF, ALT, AF_ESP, ALLELEID, CLNHGVS, CLNSIG, MC, GENEINFO, RS)
 
-# View the new dataset
-head(selected_columns)
+# : seperated list with clinsigs
+# include any variables you think are related to pathogenicity 
+# seq names might be different between gnomad and clinvar
+# keep p. if you see it 
 
 
 
