@@ -69,6 +69,53 @@ head(clinvar_combined_df)
 clinvar_filtered <- clinvar_combined_df %>%
   select(start, REF, ALT, AF_ESP, ALLELEID, CLNHGVS, CLNSIG, MC, GENEINFO, RS)
 
+# Check and filter for gene chek2
+# Extract the GENEINFO field from the INFO column
+geneinfo_data <- info(vcf_clinvar)$GENEINFO
+
+# Check if any entries in GENEINFO contain "CHEK2"
+contains_chek2 <- grep("CHEK2", geneinfo_data, ignore.case = TRUE, value = TRUE)
+
+# Print result
+if (length(contains_chek2) > 0) {
+  print("CHEK2 found in GENEINFO:")
+  print(contains_chek2)
+} else {
+  print("CHEK2 not found in GENEINFO.")
+}
+
+# Filter the variants where GENEINFO contains "CHEK2"
+chek2_variants <- grepl("CHEK2", geneinfo_data, ignore.case = TRUE)
+
+# Subset the VCF to keep only rows where GENEINFO contains "CHEK2"
+vcf_chek2 <- vcf_clinvar[chek2_variants, ]
+
+# Confirm that only variants with CHEK2 in GENEINFO remain
+head(vcf_chek2)
+# Check the names of available fields in the INFO column
+colnames(info(vcf_chek2))
+# Check that the file is filtered only for chek2
+geneinfo_values <- info(vcf_chek2)$GENEINFO
+unique_geneinfo_values <- unique(geneinfo_values)
+
+# View the unique values
+unique_geneinfo_values
+
+# Converting vcf_chek2 to a data frame
+info_chek2 <- info(vcf_chek2)
+chek2_info <- as.data.frame(info_chek2)
+
+# Extract the genomic ranges from chek2 vcf and convert to data frame
+gr_chek2 <- rowRanges(vcf_chek2)
+chek2_gr <- as.data.frame(gr_chek2)
+
+# Combine both data frames 
+chek2_df <- cbind(chek2_info, chek2_gr)
+
+# Filter the chek2 df
+chek2_df_filtered <- chek2_df %>%
+  select(start, REF, ALT, AF_ESP, ALLELEID, CLNHGVS, CLNSIG, MC, GENEINFO, RS)
+
 # : seperated list with clinsigs
 # include any variables you think are related to pathogenicity 
 # seq names might be different between gnomad and clinvar
