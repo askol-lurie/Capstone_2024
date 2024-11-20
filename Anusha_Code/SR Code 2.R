@@ -127,6 +127,7 @@ chek2_df_filtered <- chek2_df %>%
 # Just try on CHR 22 for workflow 
 ## Path to the gnomAD VCF for chromosome 22
 gnomad_vcf_chr22 <- "F:/Capstone/Resources/gnomAD/gnomad.joint.v4.1.sites.chr22.vcf.bgz"
+gnomad_vcf_chr22 <- "/Volumes/Seagate/Capstone/gnomad.joint.v4.1.sites.chr22.vcf.bgz"
 
 rng <- GRanges(seqnames="chr22", ranges=IRanges(
   start=c(50301422, 50989541), 
